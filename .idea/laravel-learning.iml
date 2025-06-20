@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/app/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/app/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/app/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/carbonphp/carbon-doctrine-types" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/composer" />
@@ -119,6 +121,32 @@
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/app/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/anourvalar/eloquent-serialize" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/blade-ui-kit/blade-heroicons" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/blade-ui-kit/blade-icons" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/danharrin/date-format-converter" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/danharrin/livewire-rate-limiting" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/actions" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/filament" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/forms" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/infolists" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/notifications" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/support" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/tables" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/filament/widgets" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/kirschbaum-development/eloquent-power-joins" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/league/csv" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/livewire/livewire" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/openspout/openspout" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/psr/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/ryangjchandler/blade-capture-directive" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/spatie/color" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/spatie/invade" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/spatie/laravel-package-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/app/vendor/symfony/html-sanitizer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
