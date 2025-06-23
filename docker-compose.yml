@@ -40,6 +40,20 @@ services:
     ports:
       - "3310:3306" # Change if 3306 is used locally
 
+  queue:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    container_name: laravel-queue-worker
+    command: php artisan queue:work --verbose --tries=3 --timeout=90
+    volumes:
+      - ./app:/var/www/html
+    working_dir: /var/www/html
+    depends_on:
+      - app
+      - mysql
+    networks:
+      - laravel
 
 networks:
   laravel:
